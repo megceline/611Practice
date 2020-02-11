@@ -36,16 +36,20 @@ a
 a <- seq(1, 10)
 class(a)
 a
+
 # The class of class(a<-1) is numeric, not integer. R defaults to numeric and to force an integer, you need to add the letter L. Confirm that the class of 1L is integer.
                           
 
 # Define the following vector:x <- c("1", "3", "5") and coerce it to get integers.
-
-
+x <- c("1", "3", "5")
+x
+as.integer(x)
 
 #  In the data frame you made in the second problem convert the temperature from Fahrenheit to Celsius. The conversion is  
 #C=5/9×( F −32)
 
+C <- 5/9 * (temp-32)
+C
 
 
 
