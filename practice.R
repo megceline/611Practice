@@ -6,8 +6,12 @@ sum(items)
 #1. Use the function c to create a vector with the average high temperatures in January for
 #Beijing, Lagos, Paris, Rio de Janeiro, San Juan, and Toronto, which are 35, 88, 42, 84, 81, 
 #and 30 degrees Fahrenheit. Call the object temp.
-
+c(35, 88, 42,84, 81, 30)
+temp <- c(35, 88, 42,84, 81, 30)
+print(temp)
 # Now create a vector with the city names and call the object city.
+city <- c("Beijing", "Lagos", "Paris", "Rio de Janeiro", "San Juan", "Toronto")
+print(city)
 
 # Use the names function and the objects defined in the previous exercises to associate the temperature data with its corresponding city.
 
