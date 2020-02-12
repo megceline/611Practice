@@ -47,7 +47,6 @@ length(exercise_example)
 a <- seq(1, 10, 0.5)
 class(a) 
 
-                            
 #What is the class of the following object a <- seq(1, 10)?
 a <- seq(1, 10)
 class(a)
